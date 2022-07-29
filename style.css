@@ -198,6 +198,31 @@ button.btn.btn-bg {
     color: #F4F4F4;
 }
 
+/* student feedback */
+
+.student-comment p {
+    font-weight: 400;
+    font-size: 16px;
+    margin: 20px 0;
+}
+
+.student-img {
+    width: 42px;
+    margin-right: 10px;
+}
+
+.student-proftion h4 {
+    font-weight: 600;
+    font-size: 18px;
+    margin: 0;
+}
+
+.student-proftion p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 14px;
+}
+
 /* frequent-text area */
 
 .frequent-text{
