@@ -67,6 +67,91 @@ button.btn.btn-bg {
     padding: 13px 33px;
 }
 
+/* Courses area start */
+
+.courses-area{
+    padding-bottom: 130PX;
+}
+
+.title-all {
+    margin: 0 auto;
+    margin-top: 130px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #777777;
+    margin-bottom: 50px;
+    width: 610px;
+}
+
+.title-all h2 {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 60px;
+    color: #1D1D1D;
+}
+
+.courst-img {
+    width: 296px;
+}
+
+.courst-ditels {
+    padding: 24px;
+}
+
+.courst-ditels h2 {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 38px;
+    margin-bottom: 10px;
+}
+
+.courst-ditels p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.courst-ditels a {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    display: inline-block;
+    color: #289BDE;
+    text-decoration: none;
+}
+
+/* rejoin area start */
+
+.rejoin-text {
+    padding: 60px 100px;
+    background: #289BDE;
+}
+
+.rejoin-detial h2 {
+    font-weight: 600;
+    font-size: 45px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.rejoin-detial p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #F4F4F4;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 /* responsive css */
@@ -85,4 +170,85 @@ button.btn.btn-bg {
         font-size: 20px;
         line-height: 30px;
     }
+
+    /*courst area start   */
+
+    .courses-area{
+        padding-bottom: 30PX;
+    }
+
+    .title-all{
+        margin-top: 32px;
+        margin-bottom: 16px;
+        width: 100%;
+        font-size: 13px;
+        line-height: 24px;
+
+    }
+
+    .title-all h2 {
+        font-weight: 600;
+        font-size: 23px;
+        line-height: 35px;
+        color: #1D1D1D;
+    }
+
+    .single-courste{
+        flex-direction: column;
+    }
+
+    .courst-img{
+        width: 100%;
+    }
+
+    .courst-img img {
+        height: 223px;
+    }
+
+}
+
+/* tablat layout */
+
+@media (min-width: 991.98px) and (max-width: 1399.98px){
+
+    .courses-area{
+        padding-bottom: 60PX;
+    }
+
+    .title-all{
+        margin-top: 60px;
+        margin-bottom: 30px;
+
+    }
+
+    .courst-ditels h2 {
+        font-size: 16px;
+        line-height: 12px;
+    }
+
+    .courst-ditels p {
+        font-size: 11px;
+        line-height: 17px;
+        margin-bottom: 9px;
+    }
+
+
+}
+
+
+@media (min-width: 767.98px) and (max-width: 990.98px){
+
+    .courses-area{
+        padding-bottom: 60PX;
+    }
+
+    .title-all{
+        margin-top: 60px;
+        margin-bottom: 30px;
+
+    }
+    .title-all h2 {
+        font-size: 39px;
+    }
+
 }
