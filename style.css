@@ -137,6 +137,46 @@ button.btn.btn-bg {
     text-decoration: none;
 }
 
+/* explore-area */
+
+
+
+.explore-area{
+    padding: 130px 0;
+    
+}
+
+.explore-datias {
+    background: #F4FAFD;
+    border-radius: 5px;
+}
+
+.explore-text {
+    padding: 19px 60px;
+}
+
+
+
+.explore-text h2 {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 60px;
+    color: #1D1D1D;
+    margin-bottom: 10px;
+}
+
+.single-review {
+    padding: 13px 7px;
+    margin: 0 13px;
+    display: inline-block;
+}
+
+.explore-text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+
 /* rejoin area start */
 
 .rejoin-text {
@@ -258,6 +298,25 @@ button.btn.btn-bg {
     .courst-img img {
         height: 223px;
     }
+
+    /* Explore area */
+    
+    .explore-text {
+        padding: 20px 0;
+    }
+
+    .explore-text h2 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .explore-text p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+
+
     /* modal */
     .rejoin-text{
         flex-direction: column;
@@ -279,7 +338,7 @@ button.btn.btn-bg {
     }
 
     /* footer area */
-    .footer-area{
+    .footer-area,.explore-area {
         padding: 60px 0;
     }
 
@@ -317,7 +376,7 @@ button.btn.btn-bg {
     }
 
     /* footer area */
-    .footer-area{
+    .footer-area,.explore-area {
         padding: 60px 0;
     }
 
@@ -343,7 +402,34 @@ button.btn.btn-bg {
     }
     .title-all h2 {
         font-size: 39px;
+        
     }
+
+    /* explore-review  */
+
+    .explore-text {
+        padding: 19px 0;
+    
+    }
+
+    .explore-img {
+        height: 501px;
+    }
+
+    .explore-img img {
+        height: 100%;
+    }
+
+    .explore-text h2 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .explore-text p {
+        font-size: 12px;
+        line-height: 24px;
+    }
+    
 
     /* modal */
     .rejoin-text{
@@ -362,7 +448,7 @@ button.btn.btn-bg {
     }
 
         /* footer area */
-        .footer-area{
+        .footer-area,.explore-area {
             padding: 60px 0;
         }
 
