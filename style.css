@@ -5,6 +5,21 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+/* menu */
+
+.paddig-menu{
+    padding:  30px 0;
+}
+
+.logo {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+
+ul.menu-bar li {
+    padding: 0 18px;
+}
 
 
 /* slider  */
@@ -204,6 +219,12 @@ button.btn.btn-bg {
         line-height: 30px;
     }
 
+    /* menu */
+
+    .register{
+        display: none;
+    }
+
     /*courst area start   */
 
     .courses-area{
@@ -304,6 +325,12 @@ button.btn.btn-bg {
 
 
 @media (min-width: 767.98px) and (max-width: 990.98px){
+
+    /* menu */
+
+    .register{
+        display: none;
+    }
 
     .courses-area{
         padding-bottom: 60PX;
