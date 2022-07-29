@@ -143,15 +143,48 @@ button.btn.btn-bg {
     color: #F4F4F4;
 }
 
+/* frequent-text area */
 
+.frequent-text{
+    width: 872px;
+    margin: 0 auto;
+}
 
+/* brand area */
 
+.brand-area{
+    padding: 130px 0;
+}
 
+.brand-detels.text-center h2 {
+    font-weight: 600;
+    font-size: 45px;
+    color: #1D1D1D;
+}
 
+.single-logo {
+    padding: 10px 30px;
+}
 
+/* footer area */
 
+.footer-area{
+    padding: 130px 0;
+    background-color: #161616;
+}
 
+.footer-text{
+    width: 321px;
+    margin: auto;
+}
 
+.footer-text h2 {
+    font-size: 40px;
+}
+
+.social-link i {
+    padding: 13px;
+}
 
 
 /* responsive css */
@@ -204,6 +237,30 @@ button.btn.btn-bg {
     .courst-img img {
         height: 223px;
     }
+    /* modal */
+    .rejoin-text{
+        flex-direction: column;
+        text-align: center;
+    }
+    .rejoin-detial h2 {
+        font-size: 24px;
+    }
+
+    /* frequent */
+    .frequent-text{
+        width: 100%;
+    }
+
+    /* brand area */
+
+    .brand-area{
+        display: none;
+    }
+
+    /* footer area */
+    .footer-area{
+        padding: 60px 0;
+    }
 
 }
 
@@ -231,7 +288,17 @@ button.btn.btn-bg {
         line-height: 17px;
         margin-bottom: 9px;
     }
+    
+       /* brand area */
 
+       .brand-area{
+        display: none;
+    }
+
+    /* footer area */
+    .footer-area{
+        padding: 60px 0;
+    }
 
 }
 
@@ -250,5 +317,26 @@ button.btn.btn-bg {
     .title-all h2 {
         font-size: 39px;
     }
+
+    /* modal */
+    .rejoin-text{
+        flex-direction: column;
+        text-align: center;
+    }
+    /* frequent */
+    .frequent-text{
+        width: 100%;
+    }
+
+       /* brand area */
+
+       .brand-area{
+        display: none;
+    }
+
+        /* footer area */
+        .footer-area{
+            padding: 60px 0;
+        }
 
 }
